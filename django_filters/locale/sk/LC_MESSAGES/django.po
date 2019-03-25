@@ -3,12 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#: conf.py:27 conf.py:28 conf.py:41
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-25 19:11+0200\n"
+"POT-Creation-Date: 2019-03-25 17:31+0200\n"
 "PO-Revision-Date: 2018-03-25 19:18+0058\n"
 "Last-Translator: b'Erik Telepovsky <erik@pragmaticmates.com>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -115,48 +116,48 @@ msgstr "má kľúče"
 msgid "has any keys"
 msgstr "má akékoľvek kľúče"
 
-#: fields.py:178
+#: fields.py:106
+msgid "Select a lookup."
+msgstr ""
+
+#: fields.py:198
 msgid "Range query expects two values."
 msgstr "Rozsah očakáva dve hodnoty."
 
-#: filters.py:429
-msgid "Any date"
-msgstr "Akýkoľvek dátum"
-
-#: filters.py:430
+#: filters.py:406
 msgid "Today"
 msgstr "Dnes"
 
-#: filters.py:435
-msgid "Past 7 days"
-msgstr "Posledných 7 dní"
-
-#: filters.py:439
-msgid "This month"
-msgstr "Tento mesiac"
-
-#: filters.py:443
-msgid "This year"
-msgstr "Tento rok"
-
-#: filters.py:446
+#: filters.py:407
 msgid "Yesterday"
 msgstr "Včera"
 
-#: filters.py:512
+#: filters.py:408
+msgid "Past 7 days"
+msgstr "Posledných 7 dní"
+
+#: filters.py:409
+msgid "This month"
+msgstr "Tento mesiac"
+
+#: filters.py:410
+msgid "This year"
+msgstr "Tento rok"
+
+#: filters.py:508
 msgid "Multiple values may be separated by commas."
 msgstr "Viacero hodnôt môže byť oddelených čiarkami."
 
-#: filters.py:591
+#: filters.py:681
 #, python-format
 msgid "%s (descending)"
 msgstr "%s (klesajúco)"
 
-#: filters.py:607
+#: filters.py:697
 msgid "Ordering"
 msgstr "Zoradenie"
 
-#: rest_framework/filterset.py:30
+#: rest_framework/filterset.py:31
 #: templates/django_filters/rest_framework/form.html:5
 msgid "Submit"
 msgstr "Potvrdiť"
@@ -166,7 +167,7 @@ msgstr "Potvrdiť"
 msgid "Field filters"
 msgstr "Filtre poľa"
 
-#: utils.py:224
+#: utils.py:299
 msgid "exclude"
 msgstr "neobsahuje"
 
@@ -185,3 +186,6 @@ msgstr "Áno"
 #: widgets.py:161
 msgid "No"
 msgstr "Nie"
+
+#~ msgid "Any date"
+#~ msgstr "Akýkoľvek dátum"
